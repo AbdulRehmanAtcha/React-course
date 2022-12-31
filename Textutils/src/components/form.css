@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+/* .main{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.main::-webkit-scrollbar {
+    display: none;
+  } */
+.form-control{
+    border: 1px solid rgb(71, 71, 71);
+    /* resize: none; */
+}
+.buttons{
+    display: flex;
+    column-gap: 8px;
+    margin-top: 8px;
+}
+span, h3{
+    color: rgb(90, 89, 89);
+}
+
+@media screen and (min-width:100px) and (max-width:750px){
+    .buttons{
+        flex-wrap: wrap;
+    }
+    .buttons button{
+        margin-top: 10px;
+        min-width: 150px;
+    }
+}

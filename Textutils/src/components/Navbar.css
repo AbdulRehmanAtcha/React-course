@@ -1,0 +1,20 @@
+.navbar span{
+    position: relative;
+    bottom: 4px;
+}
+
+.active{
+    color: rgb(25, 182, 13) !important;
+}
+.navbar-dark .navbar-toggler-icon{
+    position: relative;
+    top: 0px;
+}
+.navbar-nav li{
+    margin-bottom: 6px !important;
+    margin-left: 30px;
+    font-size: 18px;
+}
+navbar-brand{
+    font-size: 30px !important;
+}
