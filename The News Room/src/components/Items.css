@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    /* flex-wrap: wrap; */
+}
+.box{
+    height: 480px;
+    width: 450px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: -8px 14px 19px #a4a4ad;
+}
+.box button, h2, p{
+    
+    padding-left: 10px;
+}
+.box button{
+    height: 40px;
+    width: 145px;
+    border: none;
+    background-color: rgb(117, 117, 117);
+    margin-left: 10px;
+    color: aliceblue;
+}
+.main:first-child{
+    margin-top: 40px;
+}
+.main:last-child{
+    margin-bottom: 15px;
+}
