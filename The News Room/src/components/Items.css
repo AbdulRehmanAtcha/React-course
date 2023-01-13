@@ -1,39 +1,35 @@
-.main{
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-    justify-content: center;
-    align-items: center;
-    row-gap: 10px;
-    /* flex-wrap: wrap; */
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 .box{
-    height: 480px;
+    box-shadow: -7px 8px 9px #a19393;
+    min-height: 390px;
     width: 450px;
-    /* border: 1px solid red; */
+    border-radius: 14px;
+    background-color: #EBEBF2;
     display: flex;
     flex-direction: column;
-    row-gap: 4px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    box-shadow: -8px 14px 19px #a4a4ad;
+    row-gap: 20px;
+    padding-bottom: 10px;
+    padding: 10px;
 }
-.box button, h2, p{
-    
-    padding-left: 10px;
+.box p{
+    font-family: 'Montserrat', sans-serif;
+    color: #292525;
+}
+.box h2{
+    font-family: 'Varela Round', sans-serif;
+}
+.img{
+    height: 60%;
+    width: 100%;
+    border: 1px solid green;
 }
 .box button{
-    height: 40px;
-    width: 145px;
-    border: none;
-    background-color: rgb(117, 117, 117);
-    margin-left: 10px;
+    width: 150px;
+    height: 45px;
+    background-color: #351C75;
     color: aliceblue;
-}
-.main:first-child{
-    margin-top: 40px;
-}
-.main:last-child{
-    margin-bottom: 15px;
+    position: relative;
+    bottom: 10px;
+    border: none;
 }

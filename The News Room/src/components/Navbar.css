@@ -1,5 +1,21 @@
 .navbar{
     background-color: #ffffff !important;
 }
-
+.navbar-toggler{
+    position: relative;
+    right: 10vw;
+}
+ul{
+    margin-left: 50px !important;
+}
+li{
+    width: 150px;
+}
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+    font-weight: bolder !important;
+}
+.nav-link:hover{
+    color: rgb(83, 80, 80) !important;
+}
 

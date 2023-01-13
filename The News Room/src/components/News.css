@@ -1,0 +1,40 @@
+.boxes{
+    width: 99vw;
+    display: flex;
+    margin-left: 9vw;
+    height: auto;
+    column-gap: 85px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+.buttons{
+    width: 80vw;
+    height: 50px;
+    margin-left: 9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons button{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    background-color: #351C75;
+    cursor: pointer;
+}
+button:disabled{
+    background-color: grey;
+    cursor: auto;
+}
+.loader{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
