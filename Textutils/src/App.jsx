@@ -3,7 +3,6 @@ import './App.css';
 import Form from './components/Form';
 import Alerts from './components/Alerts';
 import { useState } from 'react';
-import About from './components/About';
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -28,7 +27,6 @@ function App() {
       <Alerts alert={alert} />
       <Routes>
         <Route path='/' element={<Form showAlert={showAlert} heading="Textutils - Word And Character Counter." />}/>
-        <Route path='/about' element={<About/>}/>
         <Route path='*' element={<Form showAlert={showAlert} heading="Textutils - Word And Character Counter." />}/>
       </Routes>
       
